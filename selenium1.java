@@ -16,7 +16,7 @@ public class selenium1 {
 		/*driver.findElement(By.id("pass")).sendKeys("hello mr");
 		driver.findElement(By.linkText("Forgotten password?")).click();*/
 		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("mindtree");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input.gNO89b")).click();
 		
 		
